@@ -63,7 +63,9 @@ public class Cuenta {
         return saldo;
     }
 
-
+    public void setSaldo(float saldo) {
+        this.saldo = saldo;
+    }
 }
 
 
