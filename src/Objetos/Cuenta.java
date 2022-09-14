@@ -31,7 +31,7 @@ public class Cuenta {
         saldo = saldo + interesMensual;
     }
 
-    public void estractoMensual(){
+    public void extractoMensual(){
         saldo = saldo - comisionMensual;
         interesMensual();
     }
@@ -46,6 +46,24 @@ public class Cuenta {
                 ", comisionMensual=" + comisionMensual +
                 '}';
     }
+
+    public int getNumeroDeRetiros() {
+        return numeroDeRetiros;
+    }
+
+    public void setComisionMensual(float comisionMensual) {
+        this.comisionMensual = comisionMensual;
+    }
+
+    public float getComisionMensual() {
+        return comisionMensual;
+    }
+
+    public float getSaldo() {
+        return saldo;
+    }
+
+
 }
 
 
